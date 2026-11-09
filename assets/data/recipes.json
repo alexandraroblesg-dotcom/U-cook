@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "name": "Arepa con Huevo y Queso Costeño",
+    "prep_time_minutes": 12,
+    "portions": 1,
+    "category": "Desayuno / Cena",
+    "difficulty": "Fácil",
+    "description": "Un clásico caribeño rápido, llenador y con ingredientes que nunca faltan.",
+    "ingredients": [
+      {"name": "Arepa blanca precocida", "quantity": 1, "unit": "unidad"},
+      {"name": "Huevo", "quantity": 1, "unit": "unidad"},
+      {"name": "Queso costeño rallado", "quantity": 50, "unit": "g"},
+      {"name": "Mantequilla o aceite", "quantity": 1, "unit": "cucharadita"}
+    ],
+    "steps": [
+      "Asa la arepa en una sartén con un poco de mantequilla hasta que dore por ambos lados.",
+      "Prepara el huevo frito o revuelto en otra sartén o al lado de la arepa.",
+      "Abre la arepa o colócale el huevo encima junto con una porción generosa de queso costeño rallado.",
+      "Sirve de inmediato con café con leche."
+    ],
+    "tags": ["Rápido (<15m)", "Desayuno", "Económico"]
+  },
+  {
+    "id": 2,
+    "name": "Arroz con Atún, Maíz y Aguacate",
+    "prep_time_minutes": 10,
+    "portions": 1,
+    "category": "Almuerzo / Cena",
+    "difficulty": "Muy fácil",
+    "description": "El salvavidas del universitario cuando no hay tiempo ni ganas de cocinar.",
+    "ingredients": [
+      {"name": "Arroz blanco cocido", "quantity": 1, "unit": "taza"},
+      {"name": "Atún en lata (en aceite o agua)", "quantity": 1, "unit": "lata"},
+      {"name": "Maíz dulce desgranado", "quantity": 3, "unit": "cucharadas"},
+      {"name": "Medio aguacate", "quantity": 0.5, "unit": "unidad"},
+      {"name": "Limón y pizca de sal", "quantity": 1, "unit": "al gusto"}
+    ],
+    "steps": [
+      "Calienta el arroz que tengas guardado en la nevera.",
+      "Escurre el atún y mézclalo con el arroz caliente en un tazón.",
+      "Agrega el maíz dulce y el aguacate picado en cubos.",
+      "Añade unas gotas de limón y sal al gusto. Listo para comer."
+    ],
+    "tags": ["Rápido (<15m)", "Sin estufa compleja", "Almuerzo"]
+  },
+  {
+    "id": 3,
+    "name": "Pasta Corta con Tomate, Albahaca y Queso",
+    "prep_time_minutes": 18,
+    "portions": 2,
+    "category": "Almuerzo / Cena",
+    "difficulty": "Fácil",
+    "description": "Pasta reconfortante lista en menos de 20 minutos con salsa de sartén.",
+    "ingredients": [
+      {"name": "Pasta corta (penne o tornillos)", "quantity": 160, "unit": "g"},
+      {"name": "Tomates maduros picados", "quantity": 2, "unit": "unidades"},
+      {"name": "Diente de ajo picado", "quantity": 1, "unit": "unidad"},
+      {"name": "Aceite de oliva o vegetal", "quantity": 1.5, "unit": "cucharadas"},
+      {"name": "Queso mozzarella o parmesano", "quantity": 60, "unit": "g"},
+      {"name": "Sal, pimienta y orégano", "quantity": 1, "unit": "al gusto"}
+    ],
+    "steps": [
+      "Pon a hervir agua con sal y cocina la pasta según las indicaciones del paquete (8-10 min).",
+      "En una sartén, sofríe el ajo picado en aceite caliente sin quemarlo por 1 minuto.",
+      "Agrega los tomates picados, sal, pimienta y orégano. Deja cocinar a fuego medio hasta hacer una salsa.",
+      "Escurre la pasta y viértela directamente en la sartén con la salsa.",
+      "Mezcla bien, sirve caliente y cubre con el queso rallado."
+    ],
+    "tags": ["20 a 30m", "Pasta", "Vegetariano"]
+  },
+  {
+    "id": 4,
+    "name": "Lentejas Caseras Express con Salchicha",
+    "prep_time_minutes": 25,
+    "portions": 2,
+    "category": "Almuerzo",
+    "difficulty": "Intermedio",
+    "description": "Lentejas ricas en proteína, rinden para dos días de almuerzo.",
+    "ingredients": [
+      {"name": "Lentejas pardinas", "quantity": 150, "unit": "g"},
+      {"name": "Salchicha tradicional en rodajas", "quantity": 2, "unit": "unidades"},
+      {"name": "Cebolla cabezona picada", "quantity": 0.5, "unit": "unidad"},
+      {"name": "Tomate picado", "quantity": 1, "unit": "unidad"},
+      {"name": "Papa pequeña en cubos", "quantity": 1, "unit": "unidad"},
+      {"name": "Comino, sal y aceite", "quantity": 1, "unit": "al gusto"}
+    ],
+    "steps": [
+      "Lava las lentejas. Si tienes olla a presión, cocínalas con la papa y 3 tazas de agua por 15 min.",
+      "En una sartén pequeña haz un sofrito rápido con la cebolla, tomate y las rodajas de salchicha.",
+      "Agrega el sofrito a las lentejas cocidas, rectifica la sal y el comino.",
+      "Deja espesar a fuego bajo durante 5 minutos y sirve con arroz blanco."
+    ],
+    "tags": ["20 a 30m", "Rinde varios días", "Proteína"]
+  },
+  {
+    "id": 5,
+    "name": "Omelette de Espinaca, Tomate y Queso",
+    "prep_time_minutes": 10,
+    "portions": 1,
+    "category": "Desayuno / Cena",
+    "difficulty": "Fácil",
+    "description": "Ligero, nutritivo y perfecto para recargar energía antes de un parcial.",
+    "ingredients": [
+      {"name": "Huevos", "quantity": 2, "unit": "unidades"},
+      {"name": "Hojas de espinaca lavadas", "quantity": 1, "unit": "puñado"},
+      {"name": "Tomate picado en cubos", "quantity": 0.5, "unit": "unidad"},
+      {"name": "Queso tajado o rallado", "quantity": 30, "unit": "g"},
+      {"name": "Pizca de sal y pimienta", "quantity": 1, "unit": "al gusto"}
+    ],
+    "steps": [
+      "Bate los dos huevos en un plato hondo con sal y pimienta.",
+      "Vierte los huevos batidos en una sartén engrasada caliente a fuego medio-bajo.",
+      "Cuando empiece a cuajar, añade la espinaca, el tomate y el queso en una mitad.",
+      "Dobla la otra mitad por encima, tapa por 2 minutos para fundir el queso y retira."
+    ],
+    "tags": ["Rápido (<15m)", "Bajo en carbohidratos", "Desayuno"]
+  },
+  {
+    "id": 6,
+    "name": "Sándwich de Pollo Desmechado y Mayonesa de Ajo",
+    "prep_time_minutes": 15,
+    "portions": 1,
+    "category": "Cena / Desayuno",
+    "difficulty": "Fácil",
+    "description": "Ideal para aprovechar sobras de pechuga de pollo cocida o asada.",
+    "ingredients": [
+      {"name": "Pan tajado o baguette", "quantity": 2, "unit": "rebanadas"},
+      {"name": "Pollo cocido desmechado", "quantity": 100, "unit": "g"},
+      {"name": "Mayonesa", "quantity": 1.5, "unit": "cucharadas"},
+      {"name": "Hojas de lechuga fresca", "quantity": 2, "unit": "hojas"},
+      {"name": "Rodajas de tomate", "quantity": 3, "unit": "rodajas"}
+    ],
+    "steps": [
+      "Mezcla en un tazón el pollo desmechado con la mayonesa y una pizca de pimienta.",
+      "Tuesta ligeramente el pan en una sartén o tostadora.",
+      "Coloca una cama de lechuga, rodajas de tomate y la mezcla de pollo generosamente.",
+      "Tapa y disfruta con tu jugo favorito."
+    ],
+    "tags": ["Rápido (<15m)", "Cena", "Aprovechamiento"]
+  },
+  {
+    "id": 7,
+    "name": "Bowl de Avena Fría Trasnochada con Banano",
+    "prep_time_minutes": 5,
+    "portions": 1,
+    "category": "Desayuno",
+    "difficulty": "Muy fácil",
+    "description": "Se prepara la noche anterior en 5 minutos. En la mañana solo destapas y comes.",
+    "ingredients": [
+      {"name": "Avena en hojuelas", "quantity": 0.5, "unit": "taza"},
+      {"name": "Leche (entera, deslactosada o vegetal)", "quantity": 0.75, "unit": "taza"},
+      {"name": "Banano maduro en rodajas", "quantity": 1, "unit": "unidad"},
+      {"name": "Miel o panela molida", "quantity": 1, "unit": "cucharadita"},
+      {"name": "Canela en polvo", "quantity": 1, "unit": "pizca"}
+    ],
+    "steps": [
+      "En un frasco o pocillo mezcla la avena con la leche, canela y miel.",
+      "Tapa y guarda en la nevera durante toda la noche.",
+      "Al despertar, saca el frasco y pon encima las rodajas de banano fresco."
+    ],
+    "tags": ["Rápido (<15m)", "Cero estufa", "Desayuno"]
+  },
+  {
+    "id": 8,
+    "name": "Pechuga a la Plancha con Ensalada Fresca",
+    "prep_time_minutes": 20,
+    "portions": 1,
+    "category": "Almuerzo",
+    "difficulty": "Fácil",
+    "description": "Almuerzo balanceado, limpio y sin complicaciones.",
+    "ingredients": [
+      {"name": "Filete de pechuga de pollo", "quantity": 150, "unit": "g"},
+      {"name": "Lechuga batavia", "quantity": 3, "unit": "hojas"},
+      {"name": "Tomate en rodajas", "quantity": 1, "unit": "unidad"},
+      {"name": "Pepino cohombro en rodajas", "quantity": 0.5, "unit": "unidad"},
+      {"name": "Aceite, limón, ajo en polvo y sal", "quantity": 1, "unit": "al gusto"}
+    ],
+    "steps": [
+      "Sazona la pechuga con ajo en polvo, sal y unas gotas de limón.",
+      "Calienta una sartén con un hilo de aceite y dora el pollo 4-5 minutos por cada lado.",
+      "En un plato hondo mezcla la lechuga picada, tomate y pepino con sal y limón.",
+      "Sirve la pechuga caliente acompañada de la ensalada fresca y arroz si deseas."
+    ],
+    "tags": ["20 a 30m", "Almuerzo", "Saludable"]
+  }
+]

@@ -1,0 +1,27 @@
+workflows:
+  ios-testflight:
+    name: U-Cook iOS Build & TestFlight
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: co.edu.uninorte.ucook
+    scripts:
+      - name: Instalar dependencias
+        script: |
+          flutter pub get
+      - name: Ejecutar pruebas unitarias y de widgets
+        script: |
+          flutter test
+      - name: Compilar archivo IPA para iPhone
+        script: |
+          flutter build ipa --release --export-method app-store
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
